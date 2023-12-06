@@ -28,7 +28,7 @@ with st.container():
     with right_column:
         st.image("mike.jpg")
 
-st.write("""<div style="text-align: justify; font-family: serif; black:white;font-size: 1.1em;">My journey as a computer engineering student has been a transformative experience, shaping my 
+st.write("""<div style="text-align: justify; font-family: serif; black:white;font-size: 1.1em; color:black;">My journey as a computer engineering student has been a transformative experience, shaping my 
          perspectives and opening up a world of possibilities. I have learned not only the technical skills 
          required to become a competent engineer but also the resilience, perseverance, and creativity essential 
          for success in this ever-evolving field.</div>""", unsafe_allow_html=True)
@@ -39,13 +39,13 @@ st.markdown("""<h1 style='text-align: center; color: black; font-size: 2em; font
             About me
             </h1>""", unsafe_allow_html=True)
 
-st.text("Name :Mike Bryan A. Poliran")
-st.text("Course :BSCpE 1A") 
-st.text("School :Surigao del norte state university")
-st.text("Age:18")
-st.text("Address :Brgy. Magsaysay, Placer SDN")
-st.text("Email:poliranmikebryan@gmail.com")
-st.text("Facebook: Mike Poliran")
+st.write("<div style= color: black; font-family: serif;>Name :Mike Bryan A. Poliran</div>",unsafe_allow_html=True)
+st.write("<div style= color: black; font-family: serif;>Course :BSCpE 1A</div>",unsafe_allow_html=True") 
+st.write("<div style= color: black; font-family: serif;>School :Surigao del norte state university</div>",unsafe_allow_html=True)
+st.write("<div style= color: black; font-family: serif;>Age:18</div>",unsafe_allow_html=True)
+st.write("<div style= color: black; font-family: serif;>Address :Brgy. Magsaysay, Placer SDN</div>",unsafe_allow_html=True)
+st.write("<div style= color: black; font-family: serif;>Email:poliranmikebryan@gmail.com</div>",unsafe_allow_html=True)
+st.write("<div style= color: black; font-family: serif;>Facebook: Mike Poliran</div>",unsafe_allow_html=True)
 
 @st.cache_data
 def get_img_as_base64(file):
