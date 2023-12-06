@@ -39,7 +39,7 @@ st.markdown("""<h1 style='text-align: center; color: black; font-size: 2em; font
             About me
             </h1>""", unsafe_allow_html=True)
 
-st.write("<div style= color: black; font-family: serif; color:black;>Name :Mike Bryan A. Poliran</div>",unsafe_allow_html=True)
+st.write("<div style= color: black; font-family: serif; color: black;>Name :Mike Bryan A. Poliran</div>",unsafe_allow_html=True)
 st.write("<div style= color: black; font-family: serif;color:black;>Course :BSCpE 1A</div>",unsafe_allow_html=True) 
 st.write("<div style= color: black; font-family: serif;color:black;>School :Surigao del norte state university</div>",unsafe_allow_html=True)
 st.write("<div style= color: black; font-family: serif;color:black;>Age:18</div>",unsafe_allow_html=True)
